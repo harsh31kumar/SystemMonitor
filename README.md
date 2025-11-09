@@ -1,22 +1,22 @@
 # 🖥️ System Monitor Tool
 
-A console-based **System Monitoring** application built in **C++17** for **Linux**.  
-It displays **real-time CPU, memory, uptime, and top process details**, similar to the `top` command.
+A console-based **real-time System Monitor** built in **C++17** for Linux.  
+It displays **CPU usage, memory status, uptime, and top running processes** in a terminal — similar to the `top` command.
 
 ---
 
 ## 🚀 Features
-- Live CPU & Memory usage tracking  
-- System uptime display  
-- Top processes with PID, USER, CPU%, MEM%, RSS, and CMD  
-- Auto-refresh (custom interval)  
-- Lightweight & terminal-based (no external libraries)  
+- Live CPU & Memory usage display  
+- System uptime monitoring  
+- Process listing with PID, USER, CPU%, MEM%, RSS, CMD  
+- Auto-refresh (customizable interval)  
+- Lightweight, terminal-based, and dependency-free  
 
 ---
 
 ## 🧰 Technologies Used
 - **C++17**
 - **Linux System Programming**
-- **/proc** Filesystem APIs
+- **/proc Filesystem**
 - **Makefile** for build automation
 
